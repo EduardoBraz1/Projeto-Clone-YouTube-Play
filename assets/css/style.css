@@ -1,0 +1,352 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: #F9F9F9;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 16px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+    position: absolute;
+    width: 98%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.left{
+    width: 146px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#logo{
+    width: 90px;
+    height: 20px;
+    left: 80px;
+    top: 18px;
+    position: absolute;
+}
+
+#nav{
+    width: 24px;
+    height: 24px;
+    left: 24px;
+    top: 16px;
+    position: absolute;
+}
+
+.left img{
+    margin-left: 34px;
+}
+
+.center{
+    width: 404px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#search{
+    border: 1px solid black;
+    width: 300px;
+    height: 35px;
+    align-items: center;
+}
+
+#search-button{
+    width: 50px;
+    height: 39px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    position: absolute;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 130px;
+    height: 34px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#video{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#bell{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#avatar{
+    width: 34px;
+    height: 34px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: auto;
+    left: 75px;
+    top: 84px;
+}
+
+#conteudo-principal{
+    width: auto;
+    height: 537px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#ferramenta-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+    width: 902px;
+    height: 42px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-top: 50px;
+}
+
+#dio-canal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 160px;
+    height: 42px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#inscrever-button{
+    width: 159px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    left: 202px;
+    top: 1px;
+    background: #CC0000;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#like{
+    width: 63px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#deslike{
+    width: 100px;
+    height: 24px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#share{
+    width: 115px;
+    height: 24px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#download{
+    width: 95px;
+    height: 24px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+#ferramenta-principal a #inscrever-button{
+    cursor: pointer;
+}
+
+#data-number{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin-top: 16px;
+}
+
+#description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #515151;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: auto;
+    height: 938px;
+    left: 1052px;
+    top: 0px;
+}
+
+#video-1{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#video-2{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#video-3{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#video-4{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+#video-5{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+#video-6{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+#video-7{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+#video-8{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+#video-9{
+    width: 160px;
+    height: 90px;
+    flex: none;
+    order: 8;
+    flex-grow: 0;
+}
+
+.info{
+    position: absolute;
+    width: 196px;
+    height: 89px;
+    left: 176px;
+    top: 0;
+}
